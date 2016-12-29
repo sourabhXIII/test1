@@ -675,6 +675,7 @@ Asteroid = function () {
     if (this.scale > 0.5) {
       // break into fragments habi jabi
       // more habi jabi
+      // break into fragments
       for (var i = 0; i < 3; i++) {
         var roid = $.extend(true, {}, this);
         roid.vel.x = Math.random() * 6 - 3;
